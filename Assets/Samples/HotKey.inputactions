@@ -1,0 +1,146 @@
+{
+    "name": "HotKey",
+    "maps": [
+        {
+            "name": "HotKeyActionMap",
+            "id": "497e8af5-89f9-4c80-9aba-c69622c41864",
+            "actions": [
+                {
+                    "name": "LoadOne",
+                    "type": "Button",
+                    "id": "dec538ef-4c33-492d-88c6-57775271aa97",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "LoadTwo",
+                    "type": "Button",
+                    "id": "622bd8e1-a307-475d-a9ee-3c65dc1ad22a",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "ResetPosition",
+                    "type": "Button",
+                    "id": "d05706fa-a370-4c11-a31e-bb3a3b87e10a",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "LoadOneGM",
+                    "type": "Button",
+                    "id": "7f401f69-0d02-4041-be77-7528af18be06",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "LoadTwoGM",
+                    "type": "Button",
+                    "id": "d704a918-1cc2-483f-8c5a-f4fd873ef6ad",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "ExitFromGameMode",
+                    "type": "Button",
+                    "id": "254dc052-eb1e-4548-8bd5-82eef73b5af8",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "f06f29c1-4c60-4e5c-bff4-7a6c81ae1af5",
+                    "path": "<Keyboard>/1",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LoadOne",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "814a81c8-ef77-45d3-814e-3f8013e82970",
+                    "path": "<Keyboard>/2",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LoadTwo",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "8c6ceea9-8722-420b-a05f-6169b3fe5168",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ResetPosition",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "4d529e3d-bfe5-40fa-bc63-92dc2544c803",
+                    "path": "<Keyboard>/3",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LoadOneGM",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "2a210129-a6a5-42ff-b755-2e965c55f43f",
+                    "path": "<Keyboard>/4",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LoadTwoGM",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b3c8c9e0-72c6-4d07-9ee6-b580620e1b4c",
+                    "path": "<Keyboard>/g",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ExitFromGameMode",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "New control scheme",
+            "bindingGroup": "New control scheme",
+            "devices": [
+                {
+                    "devicePath": "<Keyboard>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}

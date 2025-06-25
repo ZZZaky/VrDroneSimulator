@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 368b8e469f12026479bd082b06e1dc4d, type: 3}
+  m_Name: MotorController1.001
+  m_EditorClassIdentifier: 
+  Name: 
+  isCheckAngle: 1
+  angleCheckX:
+    IsCheck: 0
+    Error: 0
+    Mirror: 0
+  angleCheckY:
+    IsCheck: 0
+    Error: 0
+    Mirror: 0
+  angleCheckZ:
+    IsCheck: 0
+    Error: 0
+    Mirror: 0

@@ -1,0 +1,1937 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7935591496776488578
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9655c270b7022344a0357d7eda9f5ed, type: 3}
+  m_Name: BigClip.003
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 312, y: 1240}
+  ports:
+    keys:
+    - dependent
+    - independent
+    - connect
+    values:
+    - _fieldName: dependent
+      _node: {fileID: -7935591496776488578}
+      _typeQualifiedName: ConstructionVR.Assembly.GraphSystem.ConnectorTypeNode,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: connect
+        node: {fileID: 7005982184793425369}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: independent
+      _node: {fileID: -7935591496776488578}
+      _typeQualifiedName: ConstructionVR.Assembly.GraphSystem.ConnectorTypeNode,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: connect
+      _node: {fileID: -7935591496776488578}
+      _typeQualifiedName: ConstructionVR.Assembly.GraphSystem.ConnectorTypeNode,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: dependent
+        node: {fileID: 6708818467094732466}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+  dependent: {fileID: 0}
+  independent: {fileID: 0}
+  connect: {fileID: 0}
+  countDetail: 0
+  defaultConnectableDetail: {fileID: 11400000, guid: 747f5526d00bc904a83cbbb5832605a6,
+    type: 2}
+  connectableDetails: []
+  pathToSaveDetail: Assets/ConstructionVR/Objects/DroneForAssembly/AssemblyObject\AssemblyData
+--- !u!114 &-7047572288810048442
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9655c270b7022344a0357d7eda9f5ed, type: 3}
+  m_Name: GPSstandPlatform
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 1976, y: 2024}
+  ports:
+    keys:
+    - dependent
+    - independent
+    - connect
+    values:
+    - _fieldName: dependent
+      _node: {fileID: -7047572288810048442}
+      _typeQualifiedName: ConstructionVR.Assembly.GraphSystem.ConnectorTypeNode,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: connect
+        node: {fileID: 7439467049608234531}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: independent
+      _node: {fileID: -7047572288810048442}
+      _typeQualifiedName: ConstructionVR.Assembly.GraphSystem.ConnectorTypeNode,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: connect
+      _node: {fileID: -7047572288810048442}
+      _typeQualifiedName: ConstructionVR.Assembly.GraphSystem.ConnectorTypeNode,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: dependent
+        node: {fileID: 8410308432606728612}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+  dependent: {fileID: 0}
+  independent: {fileID: 0}
+  connect: {fileID: 0}
+  countDetail: 0
+  defaultConnectableDetail: {fileID: 11400000, guid: d03b3e9192445704297899f1e90aa92e,
+    type: 2}
+  connectableDetails: []
+  pathToSaveDetail: Assets/ConstructionVR/Objects/DroneForAssembly/AssemblyObject\AssemblyData
+--- !u!114 &-6201950579266172367
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9655c270b7022344a0357d7eda9f5ed, type: 3}
+  m_Name: MotorUp3CW
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 2024, y: 680}
+  ports:
+    keys:
+    - dependent
+    - independent
+    - connect
+    values:
+    - _fieldName: dependent
+      _node: {fileID: -6201950579266172367}
+      _typeQualifiedName: ConstructionVR.Assembly.GraphSystem.ConnectorTypeNode,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: independent
+      _node: {fileID: -6201950579266172367}
+      _typeQualifiedName: ConstructionVR.Assembly.GraphSystem.ConnectorTypeNode,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: connect
+        node: {fileID: 9194011804120900822}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: connect
+      _node: {fileID: -6201950579266172367}
+      _typeQualifiedName: ConstructionVR.Assembly.GraphSystem.ConnectorTypeNode,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: independent
+        node: {fileID: 1254244125529001817}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+  dependent: {fileID: 0}
+  independent: {fileID: 0}
+  connect: {fileID: 0}
+  countDetail: 0
+  defaultConnectableDetail: {fileID: 11400000, guid: 9f4e5e7d48223eb49a40a69985ef7ae6,
+    type: 2}
+  connectableDetails:
+  - {fileID: 11400000, guid: 99df9ea3c8eea4e44baf537bf5173215, type: 2}
+  pathToSaveDetail: Assets/ConstructionVR/Objects/DroneForAssembly/AssemblyObject\AssemblyData
+--- !u!114 &-4976952765557461429
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9655c270b7022344a0357d7eda9f5ed, type: 3}
+  m_Name: MotorClipDown4
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 1144, y: 680}
+  ports:
+    keys:
+    - dependent
+    - independent
+    - connect
+    values:
+    - _fieldName: dependent
+      _node: {fileID: -4976952765557461429}
+      _typeQualifiedName: ConstructionVR.Assembly.GraphSystem.ConnectorTypeNode,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: connect
+        node: {fileID: 2759248456152686643}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: independent
+      _node: {fileID: -4976952765557461429}
+      _typeQualifiedName: ConstructionVR.Assembly.GraphSystem.ConnectorTypeNode,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: connect
+      _node: {fileID: -4976952765557461429}
+      _typeQualifiedName: ConstructionVR.Assembly.GraphSystem.ConnectorTypeNode,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: dependent
+        node: {fileID: 7005982184793425369}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+  dependent: {fileID: 0}
+  independent: {fileID: 0}
+  connect: {fileID: 0}
+  countDetail: 0
+  defaultConnectableDetail: {fileID: 11400000, guid: c34a19469945ea84fa74cc82a999d8bd,
+    type: 2}
+  connectableDetails: []
+  pathToSaveDetail: Assets/ConstructionVR/Objects/DroneForAssembly/AssemblyObject\AssemblyData
+--- !u!114 &-3632919646108414051
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9655c270b7022344a0357d7eda9f5ed, type: 3}
+  m_Name: T-Foot1
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -1000, y: 520}
+  ports:
+    keys:
+    - dependent
+    - independent
+    - connect
+    values:
+    - _fieldName: dependent
+      _node: {fileID: -3632919646108414051}
+      _typeQualifiedName: ConstructionVR.Assembly.GraphSystem.ConnectorTypeNode,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: connect
+        node: {fileID: -3254345613891590987}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: independent
+      _node: {fileID: -3632919646108414051}
+      _typeQualifiedName: ConstructionVR.Assembly.GraphSystem.ConnectorTypeNode,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: connect
+      _node: {fileID: -3632919646108414051}
+      _typeQualifiedName: ConstructionVR.Assembly.GraphSystem.ConnectorTypeNode,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: dependent
+        node: {fileID: 9058277247722217453}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+  dependent: {fileID: 0}
+  independent: {fileID: 0}
+  connect: {fileID: 0}
+  countDetail: 0
+  defaultConnectableDetail: {fileID: 11400000, guid: 0fe2311ca67d6a14ab1198821c160e82,
+    type: 2}
+  connectableDetails: []
+  pathToSaveDetail: Assets/ConstructionVR/Objects/DroneForAssembly/AssemblyObject\AssemblyData
+--- !u!114 &-3254345613891590987
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9655c270b7022344a0357d7eda9f5ed, type: 3}
+  m_Name: FootPlug4
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -744, y: 520}
+  ports:
+    keys:
+    - dependent
+    - independent
+    - connect
+    values:
+    - _fieldName: dependent
+      _node: {fileID: -3254345613891590987}
+      _typeQualifiedName: ConstructionVR.Assembly.GraphSystem.ConnectorTypeNode,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: connect
+        node: {fileID: 1531033003907783417}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: independent
+      _node: {fileID: -3254345613891590987}
+      _typeQualifiedName: ConstructionVR.Assembly.GraphSystem.ConnectorTypeNode,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: connect
+      _node: {fileID: -3254345613891590987}
+      _typeQualifiedName: ConstructionVR.Assembly.GraphSystem.ConnectorTypeNode,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: dependent
+        node: {fileID: -3632919646108414051}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+  dependent: {fileID: 0}
+  independent: {fileID: 0}
+  connect: {fileID: 0}
+  countDetail: 0
+  defaultConnectableDetail: {fileID: 11400000, guid: 25986844fc3aef84cbf16c490d50fa6f,
+    type: 2}
+  connectableDetails: []
+  pathToSaveDetail: Assets/ConstructionVR/Objects/DroneForAssembly/AssemblyObject\AssemblyData
+--- !u!114 &-1985232098114442821
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9655c270b7022344a0357d7eda9f5ed, type: 3}
+  m_Name: MBase
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 1128, y: 1640}
+  ports:
+    keys:
+    - dependent
+    - independent
+    - connect
+    values:
+    - _fieldName: dependent
+      _node: {fileID: -1985232098114442821}
+      _typeQualifiedName: ConstructionVR.Assembly.GraphSystem.ConnectorTypeNode,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: connect
+        node: {fileID: 2229661130271178598}
+        reroutePoints: []
+      - fieldName: connect
+        node: {fileID: 8634820966007849325}
+        reroutePoints: []
+      - fieldName: connect
+        node: {fileID: 583173842649826684}
+        reroutePoints: []
+      - fieldName: connect
+        node: {fileID: -405440244784562669}
+        reroutePoints: []
+      - fieldName: connect
+        node: {fileID: 8410308432606728612}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: independent
+      _node: {fileID: -1985232098114442821}
+      _typeQualifiedName: ConstructionVR.Assembly.GraphSystem.ConnectorTypeNode,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: connect
+      _node: {fileID: -1985232098114442821}
+      _typeQualifiedName: ConstructionVR.Assembly.GraphSystem.ConnectorTypeNode,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: dependent
+        node: {fileID: 7005982184793425369}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+  dependent: {fileID: 0}
+  independent: {fileID: 0}
+  connect: {fileID: 0}
+  countDetail: 0
+  defaultConnectableDetail: {fileID: 11400000, guid: eee32cfac9bcb4940929f8b476de1c17,
+    type: 2}
+  connectableDetails: []
+  pathToSaveDetail: Assets/ConstructionVR/Objects/DroneForAssembly/AssemblyObject\AssemblyData
+--- !u!114 &-1713139845547307837
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9655c270b7022344a0357d7eda9f5ed, type: 3}
+  m_Name: PowerModule
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 1416, y: 424}
+  ports:
+    keys:
+    - dependent
+    - independent
+    - connect
+    values:
+    - _fieldName: dependent
+      _node: {fileID: -1713139845547307837}
+      _typeQualifiedName: ConstructionVR.Assembly.GraphSystem.ConnectorTypeNode,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: independent
+      _node: {fileID: -1713139845547307837}
+      _typeQualifiedName: ConstructionVR.Assembly.GraphSystem.ConnectorTypeNode,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: connect
+      _node: {fileID: -1713139845547307837}
+      _typeQualifiedName: ConstructionVR.Assembly.GraphSystem.ConnectorTypeNode,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: dependent
+        node: {fileID: 7863613587839429580}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+  dependent: {fileID: 0}
+  independent: {fileID: 0}
+  connect: {fileID: 0}
+  countDetail: 0
+  defaultConnectableDetail: {fileID: 11400000, guid: 49469ce42adbe6f4c934c066ea4cca87,
+    type: 2}
+  connectableDetails: []
+  pathToSaveDetail: Assets/ConstructionVR/Objects/DroneForAssembly/AssemblyObject\AssemblyData
+--- !u!114 &-874996985033264653
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9655c270b7022344a0357d7eda9f5ed, type: 3}
+  m_Name: UpBase
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 1960, y: 1768}
+  ports:
+    keys:
+    - dependent
+    - independent
+    - connect
+    values:
+    - _fieldName: dependent
+      _node: {fileID: -874996985033264653}
+      _typeQualifiedName: ConstructionVR.Assembly.GraphSystem.ConnectorTypeNode,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: independent
+      _node: {fileID: -874996985033264653}
+      _typeQualifiedName: ConstructionVR.Assembly.GraphSystem.ConnectorTypeNode,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: connect
+      _node: {fileID: -874996985033264653}
+      _typeQualifiedName: ConstructionVR.Assembly.GraphSystem.ConnectorTypeNode,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: dependent
+        node: {fileID: 2229661130271178598}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+  dependent: {fileID: 0}
+  independent: {fileID: 0}
+  connect: {fileID: 0}
+  countDetail: 0
+  defaultConnectableDetail: {fileID: 11400000, guid: 863ccfcbbc570204f930ba7c079bef92,
+    type: 2}
+  connectableDetails: []
+  pathToSaveDetail: Assets/ConstructionVR/Objects/DroneForAssembly/AssemblyObject\AssemblyData
+--- !u!114 &-405440244784562669
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9655c270b7022344a0357d7eda9f5ed, type: 3}
+  m_Name: MinimOSD
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 1656, y: 1528}
+  ports:
+    keys:
+    - dependent
+    - independent
+    - connect
+    values:
+    - _fieldName: dependent
+      _node: {fileID: -405440244784562669}
+      _typeQualifiedName: ConstructionVR.Assembly.GraphSystem.ConnectorTypeNode,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: independent
+      _node: {fileID: -405440244784562669}
+      _typeQualifiedName: ConstructionVR.Assembly.GraphSystem.ConnectorTypeNode,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: connect
+      _node: {fileID: -405440244784562669}
+      _typeQualifiedName: ConstructionVR.Assembly.GraphSystem.ConnectorTypeNode,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: dependent
+        node: {fileID: -1985232098114442821}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+  dependent: {fileID: 0}
+  independent: {fileID: 0}
+  connect: {fileID: 0}
+  countDetail: 0
+  defaultConnectableDetail: {fileID: 11400000, guid: a48d905ac9690f345a535c63f7f80f58,
+    type: 2}
+  connectableDetails: []
+  pathToSaveDetail: Assets/ConstructionVR/Objects/DroneForAssembly/AssemblyObject\AssemblyData
+--- !u!114 &-62179278038580505
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9655c270b7022344a0357d7eda9f5ed, type: 3}
+  m_Name: CrossfineAntenna
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 1944, y: 1304}
+  ports:
+    keys:
+    - dependent
+    - independent
+    - connect
+    values:
+    - _fieldName: dependent
+      _node: {fileID: -62179278038580505}
+      _typeQualifiedName: ConstructionVR.Assembly.GraphSystem.ConnectorTypeNode,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: independent
+      _node: {fileID: -62179278038580505}
+      _typeQualifiedName: ConstructionVR.Assembly.GraphSystem.ConnectorTypeNode,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: connect
+      _node: {fileID: -62179278038580505}
+      _typeQualifiedName: ConstructionVR.Assembly.GraphSystem.ConnectorTypeNode,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: dependent
+        node: {fileID: 583173842649826684}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+  dependent: {fileID: 0}
+  independent: {fileID: 0}
+  connect: {fileID: 0}
+  countDetail: 0
+  defaultConnectableDetail: {fileID: 11400000, guid: 6247595ea7690004b88654fa3d350a30,
+    type: 2}
+  connectableDetails: []
+  pathToSaveDetail: Assets/ConstructionVR/Objects/DroneForAssembly/AssemblyObject\AssemblyData
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8415ca2331de6844d905880737fa8ebc, type: 3}
+  m_Name: AssemblyGraph
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: 9058277247722217453}
+  - {fileID: -3632919646108414051}
+  - {fileID: -3254345613891590987}
+  - {fileID: 1531033003907783417}
+  - {fileID: -7935591496776488578}
+  - {fileID: 6708818467094732466}
+  - {fileID: 7863613587839429580}
+  - {fileID: -1713139845547307837}
+  - {fileID: 5353802822300770900}
+  - {fileID: 3148522231241891736}
+  - {fileID: 1415699193686726199}
+  - {fileID: 4990025645749147029}
+  - {fileID: 7005982184793425369}
+  - {fileID: -4976952765557461429}
+  - {fileID: 2759248456152686643}
+  - {fileID: 1254244125529001817}
+  - {fileID: 3210936933148596701}
+  - {fileID: 9194011804120900822}
+  - {fileID: -6201950579266172367}
+  - {fileID: -1985232098114442821}
+  - {fileID: 2229661130271178598}
+  - {fileID: 8634820966007849325}
+  - {fileID: 2878498790535936162}
+  - {fileID: 3885284471446425757}
+  - {fileID: 583173842649826684}
+  - {fileID: -62179278038580505}
+  - {fileID: -405440244784562669}
+  - {fileID: 8410308432606728612}
+  - {fileID: -7047572288810048442}
+  - {fileID: 7439467049608234531}
+  - {fileID: -874996985033264653}
+  pathToAssemblyTemplete: 
+  pathToAssemblyData: Assets/ConstructionVR/Objects/DroneForAssembly/AssemblyObject\AssemblyData
+  pathToAssemblyBase: Assets/ConstructionVR/Objects/DroneForAssembly/AssemblyObject\AssemblyBase
+  pathToDetails: Assets/ConstructionVR/Objects/DroneForAssembly/AssemblyObject\Details
+--- !u!114 &583173842649826684
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9655c270b7022344a0357d7eda9f5ed, type: 3}
+  m_Name: CrossfireNano
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 1656, y: 1288}
+  ports:
+    keys:
+    - dependent
+    - independent
+    - connect
+    values:
+    - _fieldName: dependent
+      _node: {fileID: 583173842649826684}
+      _typeQualifiedName: ConstructionVR.Assembly.GraphSystem.ConnectorTypeNode,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: connect
+        node: {fileID: -62179278038580505}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: independent
+      _node: {fileID: 583173842649826684}
+      _typeQualifiedName: ConstructionVR.Assembly.GraphSystem.ConnectorTypeNode,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: connect
+      _node: {fileID: 583173842649826684}
+      _typeQualifiedName: ConstructionVR.Assembly.GraphSystem.ConnectorTypeNode,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: dependent
+        node: {fileID: -1985232098114442821}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+  dependent: {fileID: 0}
+  independent: {fileID: 0}
+  connect: {fileID: 0}
+  countDetail: 0
+  defaultConnectableDetail: {fileID: 11400000, guid: 08779d6dcdbda404b8f2f4e98729c372,
+    type: 2}
+  connectableDetails: []
+  pathToSaveDetail: Assets/ConstructionVR/Objects/DroneForAssembly/AssemblyObject\AssemblyData
+--- !u!114 &1254244125529001817
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9655c270b7022344a0357d7eda9f5ed, type: 3}
+  m_Name: MotorPlate1
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 1672, y: 680}
+  ports:
+    keys:
+    - dependent
+    - independent
+    - connect
+    values:
+    - _fieldName: dependent
+      _node: {fileID: 1254244125529001817}
+      _typeQualifiedName: ConstructionVR.Assembly.GraphSystem.ConnectorTypeNode,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: independent
+      _node: {fileID: 1254244125529001817}
+      _typeQualifiedName: ConstructionVR.Assembly.GraphSystem.ConnectorTypeNode,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: connect
+        node: {fileID: -6201950579266172367}
+        reroutePoints: []
+      - fieldName: connect
+        node: {fileID: 3210936933148596701}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: connect
+      _node: {fileID: 1254244125529001817}
+      _typeQualifiedName: ConstructionVR.Assembly.GraphSystem.ConnectorTypeNode,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: dependent
+        node: {fileID: 2759248456152686643}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+  dependent: {fileID: 0}
+  independent: {fileID: 0}
+  connect: {fileID: 0}
+  countDetail: 0
+  defaultConnectableDetail: {fileID: 11400000, guid: 5ad884c379b47f441b5376da3d516f2f,
+    type: 2}
+  connectableDetails: []
+  pathToSaveDetail: Assets/ConstructionVR/Objects/DroneForAssembly/AssemblyObject\AssemblyData
+--- !u!114 &1415699193686726199
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9655c270b7022344a0357d7eda9f5ed, type: 3}
+  m_Name: UpStick
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 1416, y: 200}
+  ports:
+    keys:
+    - dependent
+    - independent
+    - connect
+    values:
+    - _fieldName: dependent
+      _node: {fileID: 1415699193686726199}
+      _typeQualifiedName: ConstructionVR.Assembly.GraphSystem.ConnectorTypeNode,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: connect
+        node: {fileID: 4990025645749147029}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: independent
+      _node: {fileID: 1415699193686726199}
+      _typeQualifiedName: ConstructionVR.Assembly.GraphSystem.ConnectorTypeNode,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: connect
+      _node: {fileID: 1415699193686726199}
+      _typeQualifiedName: ConstructionVR.Assembly.GraphSystem.ConnectorTypeNode,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: dependent
+        node: {fileID: 3148522231241891736}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+  dependent: {fileID: 0}
+  independent: {fileID: 0}
+  connect: {fileID: 0}
+  countDetail: 0
+  defaultConnectableDetail: {fileID: 11400000, guid: 8fa67ea95b054414b9c8fc40f14cfee9,
+    type: 2}
+  connectableDetails: []
+  pathToSaveDetail: Assets/ConstructionVR/Objects/DroneForAssembly/AssemblyObject\AssemblyData
+--- !u!114 &1531033003907783417
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9655c270b7022344a0357d7eda9f5ed, type: 3}
+  m_Name: FootArm
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -504, y: 520}
+  ports:
+    keys:
+    - dependent
+    - independent
+    - connect
+    values:
+    - _fieldName: dependent
+      _node: {fileID: 1531033003907783417}
+      _typeQualifiedName: ConstructionVR.Assembly.GraphSystem.ConnectorTypeNode,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: connect
+        node: {fileID: 6708818467094732466}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: independent
+      _node: {fileID: 1531033003907783417}
+      _typeQualifiedName: ConstructionVR.Assembly.GraphSystem.ConnectorTypeNode,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: connect
+      _node: {fileID: 1531033003907783417}
+      _typeQualifiedName: ConstructionVR.Assembly.GraphSystem.ConnectorTypeNode,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: dependent
+        node: {fileID: -3254345613891590987}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+  dependent: {fileID: 0}
+  independent: {fileID: 0}
+  connect: {fileID: 0}
+  countDetail: 0
+  defaultConnectableDetail: {fileID: 11400000, guid: 93b3e3697638c6f4080c861ce34e10dc,
+    type: 2}
+  connectableDetails: []
+  pathToSaveDetail: Assets/ConstructionVR/Objects/DroneForAssembly/AssemblyObject\AssemblyData
+--- !u!114 &2229661130271178598
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9655c270b7022344a0357d7eda9f5ed, type: 3}
+  m_Name: Pixhawk
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 1656, y: 1752}
+  ports:
+    keys:
+    - dependent
+    - independent
+    - connect
+    values:
+    - _fieldName: dependent
+      _node: {fileID: 2229661130271178598}
+      _typeQualifiedName: ConstructionVR.Assembly.GraphSystem.ConnectorTypeNode,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: connect
+        node: {fileID: -874996985033264653}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: independent
+      _node: {fileID: 2229661130271178598}
+      _typeQualifiedName: ConstructionVR.Assembly.GraphSystem.ConnectorTypeNode,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: connect
+      _node: {fileID: 2229661130271178598}
+      _typeQualifiedName: ConstructionVR.Assembly.GraphSystem.ConnectorTypeNode,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: dependent
+        node: {fileID: -1985232098114442821}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+  dependent: {fileID: 0}
+  independent: {fileID: 0}
+  connect: {fileID: 0}
+  countDetail: 0
+  defaultConnectableDetail: {fileID: 11400000, guid: e9335ea551e4dd049b05ac8a3d44a413,
+    type: 2}
+  connectableDetails: []
+  pathToSaveDetail: Assets/ConstructionVR/Objects/DroneForAssembly/AssemblyObject\AssemblyData
+--- !u!114 &2759248456152686643
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9655c270b7022344a0357d7eda9f5ed, type: 3}
+  m_Name: MotorClipUp4
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 1416, y: 680}
+  ports:
+    keys:
+    - dependent
+    - independent
+    - connect
+    values:
+    - _fieldName: dependent
+      _node: {fileID: 2759248456152686643}
+      _typeQualifiedName: ConstructionVR.Assembly.GraphSystem.ConnectorTypeNode,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: connect
+        node: {fileID: 1254244125529001817}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: independent
+      _node: {fileID: 2759248456152686643}
+      _typeQualifiedName: ConstructionVR.Assembly.GraphSystem.ConnectorTypeNode,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: connect
+      _node: {fileID: 2759248456152686643}
+      _typeQualifiedName: ConstructionVR.Assembly.GraphSystem.ConnectorTypeNode,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: dependent
+        node: {fileID: -4976952765557461429}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+  dependent: {fileID: 0}
+  independent: {fileID: 0}
+  connect: {fileID: 0}
+  countDetail: 0
+  defaultConnectableDetail: {fileID: 11400000, guid: abe36b75fb803f54f8f20cde1e948a32,
+    type: 2}
+  connectableDetails: []
+  pathToSaveDetail: Assets/ConstructionVR/Objects/DroneForAssembly/AssemblyObject\AssemblyData
+--- !u!114 &2878498790535936162
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9655c270b7022344a0357d7eda9f5ed, type: 3}
+  m_Name: TbsUnifyProHV_Antenna
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 1944, y: 1064}
+  ports:
+    keys:
+    - dependent
+    - independent
+    - connect
+    values:
+    - _fieldName: dependent
+      _node: {fileID: 2878498790535936162}
+      _typeQualifiedName: ConstructionVR.Assembly.GraphSystem.ConnectorTypeNode,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: connect
+        node: {fileID: 3885284471446425757}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: independent
+      _node: {fileID: 2878498790535936162}
+      _typeQualifiedName: ConstructionVR.Assembly.GraphSystem.ConnectorTypeNode,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: connect
+      _node: {fileID: 2878498790535936162}
+      _typeQualifiedName: ConstructionVR.Assembly.GraphSystem.ConnectorTypeNode,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: dependent
+        node: {fileID: 8634820966007849325}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+  dependent: {fileID: 0}
+  independent: {fileID: 0}
+  connect: {fileID: 0}
+  countDetail: 0
+  defaultConnectableDetail: {fileID: 11400000, guid: db7504a291dc62c4e8f8c9bf41e07e8c,
+    type: 2}
+  connectableDetails: []
+  pathToSaveDetail: Assets/ConstructionVR/Objects/DroneForAssembly/AssemblyObject\AssemblyData
+--- !u!114 &3148522231241891736
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9655c270b7022344a0357d7eda9f5ed, type: 3}
+  m_Name: Rubber.001
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 1144, y: 200}
+  ports:
+    keys:
+    - dependent
+    - independent
+    - connect
+    values:
+    - _fieldName: dependent
+      _node: {fileID: 3148522231241891736}
+      _typeQualifiedName: ConstructionVR.Assembly.GraphSystem.ConnectorTypeNode,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: connect
+        node: {fileID: 1415699193686726199}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: independent
+      _node: {fileID: 3148522231241891736}
+      _typeQualifiedName: ConstructionVR.Assembly.GraphSystem.ConnectorTypeNode,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: connect
+      _node: {fileID: 3148522231241891736}
+      _typeQualifiedName: ConstructionVR.Assembly.GraphSystem.ConnectorTypeNode,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: dependent
+        node: {fileID: 6708818467094732466}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+  dependent: {fileID: 0}
+  independent: {fileID: 0}
+  connect: {fileID: 0}
+  countDetail: 0
+  defaultConnectableDetail: {fileID: 11400000, guid: 41e3711650fb96b4ba882ccd3ff74e2d,
+    type: 2}
+  connectableDetails: []
+  pathToSaveDetail: Assets/ConstructionVR/Objects/DroneForAssembly/AssemblyObject\AssemblyData
+--- !u!114 &3210936933148596701
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9655c270b7022344a0357d7eda9f5ed, type: 3}
+  m_Name: MotorController1.001
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 2008, y: 424}
+  ports:
+    keys:
+    - dependent
+    - independent
+    - connect
+    values:
+    - _fieldName: dependent
+      _node: {fileID: 3210936933148596701}
+      _typeQualifiedName: ConstructionVR.Assembly.GraphSystem.ConnectorTypeNode,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: independent
+      _node: {fileID: 3210936933148596701}
+      _typeQualifiedName: ConstructionVR.Assembly.GraphSystem.ConnectorTypeNode,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: connect
+      _node: {fileID: 3210936933148596701}
+      _typeQualifiedName: ConstructionVR.Assembly.GraphSystem.ConnectorTypeNode,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: independent
+        node: {fileID: 1254244125529001817}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+  dependent: {fileID: 0}
+  independent: {fileID: 0}
+  connect: {fileID: 0}
+  countDetail: 0
+  defaultConnectableDetail: {fileID: 11400000, guid: ae21ba0a65c63e944ae595f6cac4cc5b,
+    type: 2}
+  connectableDetails: []
+  pathToSaveDetail: Assets/ConstructionVR/Objects/DroneForAssembly/AssemblyObject\AssemblyData
+--- !u!114 &3885284471446425757
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9655c270b7022344a0357d7eda9f5ed, type: 3}
+  m_Name: LolipopAntenna
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 2216, y: 1064}
+  ports:
+    keys:
+    - dependent
+    - independent
+    - connect
+    values:
+    - _fieldName: dependent
+      _node: {fileID: 3885284471446425757}
+      _typeQualifiedName: ConstructionVR.Assembly.GraphSystem.ConnectorTypeNode,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: independent
+      _node: {fileID: 3885284471446425757}
+      _typeQualifiedName: ConstructionVR.Assembly.GraphSystem.ConnectorTypeNode,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: connect
+      _node: {fileID: 3885284471446425757}
+      _typeQualifiedName: ConstructionVR.Assembly.GraphSystem.ConnectorTypeNode,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: dependent
+        node: {fileID: 2878498790535936162}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+  dependent: {fileID: 0}
+  independent: {fileID: 0}
+  connect: {fileID: 0}
+  countDetail: 0
+  defaultConnectableDetail: {fileID: 11400000, guid: cef28b9ecc038b1498f093ccd26d211c,
+    type: 2}
+  connectableDetails: []
+  pathToSaveDetail: Assets/ConstructionVR/Objects/DroneForAssembly/AssemblyObject\AssemblyData
+--- !u!114 &4990025645749147029
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9655c270b7022344a0357d7eda9f5ed, type: 3}
+  m_Name: Battery
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 1672, y: 200}
+  ports:
+    keys:
+    - dependent
+    - independent
+    - connect
+    values:
+    - _fieldName: dependent
+      _node: {fileID: 4990025645749147029}
+      _typeQualifiedName: ConstructionVR.Assembly.GraphSystem.ConnectorTypeNode,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: independent
+      _node: {fileID: 4990025645749147029}
+      _typeQualifiedName: ConstructionVR.Assembly.GraphSystem.ConnectorTypeNode,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: connect
+      _node: {fileID: 4990025645749147029}
+      _typeQualifiedName: ConstructionVR.Assembly.GraphSystem.ConnectorTypeNode,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: dependent
+        node: {fileID: 1415699193686726199}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+  dependent: {fileID: 0}
+  independent: {fileID: 0}
+  connect: {fileID: 0}
+  countDetail: 0
+  defaultConnectableDetail: {fileID: 11400000, guid: 00194f92c0ed87b49842687ef69958fd,
+    type: 2}
+  connectableDetails: []
+  pathToSaveDetail: Assets/ConstructionVR/Objects/DroneForAssembly/AssemblyObject\AssemblyData
+--- !u!114 &5353802822300770900
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9655c270b7022344a0357d7eda9f5ed, type: 3}
+  m_Name: FPVFoxeerCamera
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 1144, y: -24}
+  ports:
+    keys:
+    - dependent
+    - independent
+    - connect
+    values:
+    - _fieldName: dependent
+      _node: {fileID: 5353802822300770900}
+      _typeQualifiedName: ConstructionVR.Assembly.GraphSystem.ConnectorTypeNode,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: independent
+      _node: {fileID: 5353802822300770900}
+      _typeQualifiedName: ConstructionVR.Assembly.GraphSystem.ConnectorTypeNode,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: connect
+      _node: {fileID: 5353802822300770900}
+      _typeQualifiedName: ConstructionVR.Assembly.GraphSystem.ConnectorTypeNode,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: dependent
+        node: {fileID: 6708818467094732466}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+  dependent: {fileID: 0}
+  independent: {fileID: 0}
+  connect: {fileID: 0}
+  countDetail: 0
+  defaultConnectableDetail: {fileID: 11400000, guid: 1bec1cf82ccf5da45becc031cfa8772b,
+    type: 2}
+  connectableDetails: []
+  pathToSaveDetail: Assets/ConstructionVR/Objects/DroneForAssembly/AssemblyObject\AssemblyData
+--- !u!114 &6708818467094732466
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9655c270b7022344a0357d7eda9f5ed, type: 3}
+  m_Name: LBase
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -232, y: 520}
+  ports:
+    keys:
+    - dependent
+    - independent
+    - connect
+    values:
+    - _fieldName: dependent
+      _node: {fileID: 6708818467094732466}
+      _typeQualifiedName: ConstructionVR.Assembly.GraphSystem.ConnectorTypeNode,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: connect
+        node: {fileID: 7863613587839429580}
+        reroutePoints: []
+      - fieldName: connect
+        node: {fileID: -7935591496776488578}
+        reroutePoints: []
+      - fieldName: connect
+        node: {fileID: 5353802822300770900}
+        reroutePoints: []
+      - fieldName: connect
+        node: {fileID: 3148522231241891736}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: independent
+      _node: {fileID: 6708818467094732466}
+      _typeQualifiedName: ConstructionVR.Assembly.GraphSystem.ConnectorTypeNode,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: connect
+      _node: {fileID: 6708818467094732466}
+      _typeQualifiedName: ConstructionVR.Assembly.GraphSystem.ConnectorTypeNode,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: dependent
+        node: {fileID: 1531033003907783417}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+  dependent: {fileID: 0}
+  independent: {fileID: 0}
+  connect: {fileID: 0}
+  countDetail: 0
+  defaultConnectableDetail: {fileID: 11400000, guid: 4ed4539cbd8863a4bb4a4da0b13d7bfd,
+    type: 2}
+  connectableDetails: []
+  pathToSaveDetail: Assets/ConstructionVR/Objects/DroneForAssembly/AssemblyObject\AssemblyData
+--- !u!114 &7005982184793425369
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9655c270b7022344a0357d7eda9f5ed, type: 3}
+  m_Name: Arm3.003
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 584, y: 1256}
+  ports:
+    keys:
+    - dependent
+    - independent
+    - connect
+    values:
+    - _fieldName: dependent
+      _node: {fileID: 7005982184793425369}
+      _typeQualifiedName: ConstructionVR.Assembly.GraphSystem.ConnectorTypeNode,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: connect
+        node: {fileID: -4976952765557461429}
+        reroutePoints: []
+      - fieldName: connect
+        node: {fileID: -1985232098114442821}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: independent
+      _node: {fileID: 7005982184793425369}
+      _typeQualifiedName: ConstructionVR.Assembly.GraphSystem.ConnectorTypeNode,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: connect
+      _node: {fileID: 7005982184793425369}
+      _typeQualifiedName: ConstructionVR.Assembly.GraphSystem.ConnectorTypeNode,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: dependent
+        node: {fileID: -7935591496776488578}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+  dependent: {fileID: 0}
+  independent: {fileID: 0}
+  connect: {fileID: 0}
+  countDetail: 0
+  defaultConnectableDetail: {fileID: 11400000, guid: e6d4e76a6c78f11408dafd80d5f5c11e,
+    type: 2}
+  connectableDetails: []
+  pathToSaveDetail: Assets/ConstructionVR/Objects/DroneForAssembly/AssemblyObject\AssemblyData
+--- !u!114 &7439467049608234531
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9655c270b7022344a0357d7eda9f5ed, type: 3}
+  m_Name: RadiolinkSE100
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 2232, y: 2024}
+  ports:
+    keys:
+    - dependent
+    - independent
+    - connect
+    values:
+    - _fieldName: dependent
+      _node: {fileID: 7439467049608234531}
+      _typeQualifiedName: ConstructionVR.Assembly.GraphSystem.ConnectorTypeNode,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: independent
+      _node: {fileID: 7439467049608234531}
+      _typeQualifiedName: ConstructionVR.Assembly.GraphSystem.ConnectorTypeNode,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: connect
+      _node: {fileID: 7439467049608234531}
+      _typeQualifiedName: ConstructionVR.Assembly.GraphSystem.ConnectorTypeNode,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: dependent
+        node: {fileID: -7047572288810048442}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+  dependent: {fileID: 0}
+  independent: {fileID: 0}
+  connect: {fileID: 0}
+  countDetail: 0
+  defaultConnectableDetail: {fileID: 11400000, guid: 2bf74cb680c7ef74e8093314357b6988,
+    type: 2}
+  connectableDetails: []
+  pathToSaveDetail: Assets/ConstructionVR/Objects/DroneForAssembly/AssemblyObject\AssemblyData
+--- !u!114 &7863613587839429580
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9655c270b7022344a0357d7eda9f5ed, type: 3}
+  m_Name: PowerSplitter
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 1144, y: 424}
+  ports:
+    keys:
+    - dependent
+    - independent
+    - connect
+    values:
+    - _fieldName: dependent
+      _node: {fileID: 7863613587839429580}
+      _typeQualifiedName: ConstructionVR.Assembly.GraphSystem.ConnectorTypeNode,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: connect
+        node: {fileID: -1713139845547307837}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: independent
+      _node: {fileID: 7863613587839429580}
+      _typeQualifiedName: ConstructionVR.Assembly.GraphSystem.ConnectorTypeNode,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: connect
+      _node: {fileID: 7863613587839429580}
+      _typeQualifiedName: ConstructionVR.Assembly.GraphSystem.ConnectorTypeNode,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: dependent
+        node: {fileID: 6708818467094732466}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+  dependent: {fileID: 0}
+  independent: {fileID: 0}
+  connect: {fileID: 0}
+  countDetail: 0
+  defaultConnectableDetail: {fileID: 11400000, guid: 1502e667dae26304ab8783db002002e9,
+    type: 2}
+  connectableDetails: []
+  pathToSaveDetail: Assets/ConstructionVR/Objects/DroneForAssembly/AssemblyObject\AssemblyData
+--- !u!114 &8410308432606728612
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9655c270b7022344a0357d7eda9f5ed, type: 3}
+  m_Name: GPSstandStick
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 1656, y: 2008}
+  ports:
+    keys:
+    - dependent
+    - independent
+    - connect
+    values:
+    - _fieldName: dependent
+      _node: {fileID: 8410308432606728612}
+      _typeQualifiedName: ConstructionVR.Assembly.GraphSystem.ConnectorTypeNode,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: connect
+        node: {fileID: -7047572288810048442}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: independent
+      _node: {fileID: 8410308432606728612}
+      _typeQualifiedName: ConstructionVR.Assembly.GraphSystem.ConnectorTypeNode,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: connect
+      _node: {fileID: 8410308432606728612}
+      _typeQualifiedName: ConstructionVR.Assembly.GraphSystem.ConnectorTypeNode,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: dependent
+        node: {fileID: -1985232098114442821}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+  dependent: {fileID: 0}
+  independent: {fileID: 0}
+  connect: {fileID: 0}
+  countDetail: 0
+  defaultConnectableDetail: {fileID: 11400000, guid: 679fe24d6be1cb44cac84d8c7afad154,
+    type: 2}
+  connectableDetails: []
+  pathToSaveDetail: Assets/ConstructionVR/Objects/DroneForAssembly/AssemblyObject\AssemblyData
+--- !u!114 &8634820966007849325
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9655c270b7022344a0357d7eda9f5ed, type: 3}
+  m_Name: TbsUnifyProHV
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 1656, y: 1064}
+  ports:
+    keys:
+    - dependent
+    - independent
+    - connect
+    values:
+    - _fieldName: dependent
+      _node: {fileID: 8634820966007849325}
+      _typeQualifiedName: ConstructionVR.Assembly.GraphSystem.ConnectorTypeNode,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: connect
+        node: {fileID: 2878498790535936162}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: independent
+      _node: {fileID: 8634820966007849325}
+      _typeQualifiedName: ConstructionVR.Assembly.GraphSystem.ConnectorTypeNode,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: connect
+      _node: {fileID: 8634820966007849325}
+      _typeQualifiedName: ConstructionVR.Assembly.GraphSystem.ConnectorTypeNode,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: dependent
+        node: {fileID: -1985232098114442821}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+  dependent: {fileID: 0}
+  independent: {fileID: 0}
+  connect: {fileID: 0}
+  countDetail: 0
+  defaultConnectableDetail: {fileID: 11400000, guid: f1d647719c0ffac4598aea8f8d370610,
+    type: 2}
+  connectableDetails: []
+  pathToSaveDetail: Assets/ConstructionVR/Objects/DroneForAssembly/AssemblyObject\AssemblyData
+--- !u!114 &9058277247722217453
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9655c270b7022344a0357d7eda9f5ed, type: 3}
+  m_Name: FootStick1
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -1256, y: 520}
+  ports:
+    keys:
+    - dependent
+    - independent
+    - connect
+    values:
+    - _fieldName: dependent
+      _node: {fileID: 9058277247722217453}
+      _typeQualifiedName: ConstructionVR.Assembly.GraphSystem.ConnectorTypeNode,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: connect
+        node: {fileID: -3632919646108414051}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: independent
+      _node: {fileID: 9058277247722217453}
+      _typeQualifiedName: ConstructionVR.Assembly.GraphSystem.ConnectorTypeNode,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: connect
+      _node: {fileID: 9058277247722217453}
+      _typeQualifiedName: ConstructionVR.Assembly.GraphSystem.ConnectorTypeNode,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+  dependent: {fileID: 0}
+  independent: {fileID: 0}
+  connect: {fileID: 0}
+  countDetail: 0
+  defaultConnectableDetail: {fileID: 11400000, guid: 2005b65c7cddcc943aeca87a8794fd22,
+    type: 2}
+  connectableDetails: []
+  pathToSaveDetail: Assets/ConstructionVR/Objects/DroneForAssembly/AssemblyObject\AssemblyData
+--- !u!114 &9194011804120900822
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9655c270b7022344a0357d7eda9f5ed, type: 3}
+  m_Name: Propeller.001
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 2344, y: 680}
+  ports:
+    keys:
+    - dependent
+    - independent
+    - connect
+    values:
+    - _fieldName: dependent
+      _node: {fileID: 9194011804120900822}
+      _typeQualifiedName: ConstructionVR.Assembly.GraphSystem.ConnectorTypeNode,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: independent
+      _node: {fileID: 9194011804120900822}
+      _typeQualifiedName: ConstructionVR.Assembly.GraphSystem.ConnectorTypeNode,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: connect
+      _node: {fileID: 9194011804120900822}
+      _typeQualifiedName: ConstructionVR.Assembly.GraphSystem.ConnectorTypeNode,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: independent
+        node: {fileID: -6201950579266172367}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+  dependent: {fileID: 0}
+  independent: {fileID: 0}
+  connect: {fileID: 0}
+  countDetail: 0
+  defaultConnectableDetail: {fileID: 11400000, guid: 2f0876d6d5fcae8458d9ec772d5090c4,
+    type: 2}
+  connectableDetails:
+  - {fileID: 11400000, guid: 745a952938e155c41aca68d6a9d059f5, type: 2}
+  pathToSaveDetail: Assets/ConstructionVR/Objects/DroneForAssembly/AssemblyObject\AssemblyData

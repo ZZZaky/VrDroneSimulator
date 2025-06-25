@@ -1,0 +1,757 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7198428770408737940
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9655c270b7022344a0357d7eda9f5ed, type: 3}
+  m_Name: BigClip.003
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 250, y: 0}
+  ports:
+    keys:
+    - dependent
+    - independent
+    - connect
+    values:
+    - _fieldName: dependent
+      _node: {fileID: -7198428770408737940}
+      _typeQualifiedName: ConstructionVR.Assembly.GraphSystem.ConnectorTypeNode,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: independent
+      _node: {fileID: -7198428770408737940}
+      _typeQualifiedName: ConstructionVR.Assembly.GraphSystem.ConnectorTypeNode,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: connect
+        node: {fileID: 3764764170240117962}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: connect
+      _node: {fileID: -7198428770408737940}
+      _typeQualifiedName: ConstructionVR.Assembly.GraphSystem.ConnectorTypeNode,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: independent
+        node: {fileID: 1099456974096632613}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+  dependent: {fileID: 0}
+  independent: {fileID: 0}
+  connect: {fileID: 0}
+  countDetail: 0
+  defaultConnectableDetail: {fileID: 11400000, guid: 9fe4dd50be61b8e459813d9a7ef28ff6,
+    type: 2}
+  connectableDetails: []
+  pathToSaveDetail: Assets/_Developers/Ivan/AssemblyObject\AssemblyData
+--- !u!114 &-3816704121389921473
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9655c270b7022344a0357d7eda9f5ed, type: 3}
+  m_Name: MotorController1.001
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 2000, y: 0}
+  ports:
+    keys:
+    - dependent
+    - independent
+    - connect
+    values:
+    - _fieldName: dependent
+      _node: {fileID: -3816704121389921473}
+      _typeQualifiedName: ConstructionVR.Assembly.GraphSystem.ConnectorTypeNode,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: independent
+      _node: {fileID: -3816704121389921473}
+      _typeQualifiedName: ConstructionVR.Assembly.GraphSystem.ConnectorTypeNode,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: connect
+        node: {fileID: -1808236126730324729}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: connect
+      _node: {fileID: -3816704121389921473}
+      _typeQualifiedName: ConstructionVR.Assembly.GraphSystem.ConnectorTypeNode,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: independent
+        node: {fileID: -1163239321022527349}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+  dependent: {fileID: 0}
+  independent: {fileID: 0}
+  connect: {fileID: 0}
+  countDetail: 0
+  defaultConnectableDetail: {fileID: 11400000, guid: 2bc71c49334ecb6499a6e37830c62411,
+    type: 2}
+  connectableDetails: []
+  pathToSaveDetail: Assets/_Developers/Ivan/AssemblyObject\AssemblyData
+--- !u!114 &-1835702728795551604
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9655c270b7022344a0357d7eda9f5ed, type: 3}
+  m_Name: DownFootClip2.004
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 750, y: 0}
+  ports:
+    keys:
+    - dependent
+    - independent
+    - connect
+    values:
+    - _fieldName: dependent
+      _node: {fileID: -1835702728795551604}
+      _typeQualifiedName: ConstructionVR.Assembly.GraphSystem.ConnectorTypeNode,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: independent
+      _node: {fileID: -1835702728795551604}
+      _typeQualifiedName: ConstructionVR.Assembly.GraphSystem.ConnectorTypeNode,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: connect
+        node: {fileID: 3109926739502915047}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: connect
+      _node: {fileID: -1835702728795551604}
+      _typeQualifiedName: ConstructionVR.Assembly.GraphSystem.ConnectorTypeNode,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: independent
+        node: {fileID: 3764764170240117962}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+  dependent: {fileID: 0}
+  independent: {fileID: 0}
+  connect: {fileID: 0}
+  countDetail: 0
+  defaultConnectableDetail: {fileID: 11400000, guid: 90b8354dec9e04741a4ca78b071db4a7,
+    type: 2}
+  connectableDetails: []
+  pathToSaveDetail: Assets/_Developers/Ivan/AssemblyObject\AssemblyData
+--- !u!114 &-1808236126730324729
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9655c270b7022344a0357d7eda9f5ed, type: 3}
+  m_Name: MotorDown1
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 2250, y: 0}
+  ports:
+    keys:
+    - dependent
+    - independent
+    - connect
+    values:
+    - _fieldName: dependent
+      _node: {fileID: -1808236126730324729}
+      _typeQualifiedName: ConstructionVR.Assembly.GraphSystem.ConnectorTypeNode,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: independent
+      _node: {fileID: -1808236126730324729}
+      _typeQualifiedName: ConstructionVR.Assembly.GraphSystem.ConnectorTypeNode,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: connect
+        node: {fileID: 7990761618644847733}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: connect
+      _node: {fileID: -1808236126730324729}
+      _typeQualifiedName: ConstructionVR.Assembly.GraphSystem.ConnectorTypeNode,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: independent
+        node: {fileID: -3816704121389921473}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+  dependent: {fileID: 0}
+  independent: {fileID: 0}
+  connect: {fileID: 0}
+  countDetail: 0
+  defaultConnectableDetail: {fileID: 11400000, guid: f7ac5234f34824d4db59b42f3e310de5,
+    type: 2}
+  connectableDetails: []
+  pathToSaveDetail: Assets/_Developers/Ivan/AssemblyObject\AssemblyData
+--- !u!114 &-1163239321022527349
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9655c270b7022344a0357d7eda9f5ed, type: 3}
+  m_Name: MotorClipUp4
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 1750, y: 0}
+  ports:
+    keys:
+    - dependent
+    - independent
+    - connect
+    values:
+    - _fieldName: dependent
+      _node: {fileID: -1163239321022527349}
+      _typeQualifiedName: ConstructionVR.Assembly.GraphSystem.ConnectorTypeNode,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: independent
+      _node: {fileID: -1163239321022527349}
+      _typeQualifiedName: ConstructionVR.Assembly.GraphSystem.ConnectorTypeNode,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: connect
+        node: {fileID: -3816704121389921473}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: connect
+      _node: {fileID: -1163239321022527349}
+      _typeQualifiedName: ConstructionVR.Assembly.GraphSystem.ConnectorTypeNode,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: independent
+        node: {fileID: 2982218768445800350}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+  dependent: {fileID: 0}
+  independent: {fileID: 0}
+  connect: {fileID: 0}
+  countDetail: 0
+  defaultConnectableDetail: {fileID: 11400000, guid: f98382adc2a347746aa984b87f1edde6,
+    type: 2}
+  connectableDetails: []
+  pathToSaveDetail: Assets/_Developers/Ivan/AssemblyObject\AssemblyData
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8415ca2331de6844d905880737fa8ebc, type: 3}
+  m_Name: AssemblyGraph
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: 1099456974096632613}
+  - {fileID: -7198428770408737940}
+  - {fileID: 3764764170240117962}
+  - {fileID: -1835702728795551604}
+  - {fileID: 3109926739502915047}
+  - {fileID: 6783465819605371344}
+  - {fileID: 2982218768445800350}
+  - {fileID: -1163239321022527349}
+  - {fileID: -3816704121389921473}
+  - {fileID: -1808236126730324729}
+  - {fileID: 7990761618644847733}
+  - {fileID: 2191171250406643128}
+  pathToAssemblyTemplete: 
+  pathToAssemblyData: Assets/_Developers/Ivan/AssemblyObject\AssemblyData
+  pathToAssemblyBase: Assets/_Developers/Ivan/AssemblyObject\AssemblyBase
+  pathToDetails: Assets/_Developers/Ivan/AssemblyObject\Details
+--- !u!114 &1099456974096632613
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9655c270b7022344a0357d7eda9f5ed, type: 3}
+  m_Name: 0Arm3.001
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 0, y: 0}
+  ports:
+    keys:
+    - dependent
+    - independent
+    - connect
+    values:
+    - _fieldName: dependent
+      _node: {fileID: 1099456974096632613}
+      _typeQualifiedName: ConstructionVR.Assembly.GraphSystem.ConnectorTypeNode,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: independent
+      _node: {fileID: 1099456974096632613}
+      _typeQualifiedName: ConstructionVR.Assembly.GraphSystem.ConnectorTypeNode,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: connect
+        node: {fileID: -7198428770408737940}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: connect
+      _node: {fileID: 1099456974096632613}
+      _typeQualifiedName: ConstructionVR.Assembly.GraphSystem.ConnectorTypeNode,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+  dependent: {fileID: 0}
+  independent: {fileID: 0}
+  connect: {fileID: 0}
+  countDetail: 0
+  defaultConnectableDetail: {fileID: 11400000, guid: 69a7a6f9ebe422d468393af5ae7d7694,
+    type: 2}
+  connectableDetails: []
+  pathToSaveDetail: Assets/_Developers/Ivan/AssemblyObject\AssemblyData
+--- !u!114 &2191171250406643128
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9655c270b7022344a0357d7eda9f5ed, type: 3}
+  m_Name: MotorUp2CCW
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 2750, y: 0}
+  ports:
+    keys:
+    - dependent
+    - independent
+    - connect
+    values:
+    - _fieldName: dependent
+      _node: {fileID: 2191171250406643128}
+      _typeQualifiedName: ConstructionVR.Assembly.GraphSystem.ConnectorTypeNode,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: independent
+      _node: {fileID: 2191171250406643128}
+      _typeQualifiedName: ConstructionVR.Assembly.GraphSystem.ConnectorTypeNode,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: connect
+      _node: {fileID: 2191171250406643128}
+      _typeQualifiedName: ConstructionVR.Assembly.GraphSystem.ConnectorTypeNode,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: independent
+        node: {fileID: 7990761618644847733}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+  dependent: {fileID: 0}
+  independent: {fileID: 0}
+  connect: {fileID: 0}
+  countDetail: 0
+  defaultConnectableDetail: {fileID: 11400000, guid: ea7693af9b697064aa83c345e1f3eb73,
+    type: 2}
+  connectableDetails: []
+  pathToSaveDetail: Assets/_Developers/Ivan/AssemblyObject\AssemblyData
+--- !u!114 &2982218768445800350
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9655c270b7022344a0357d7eda9f5ed, type: 3}
+  m_Name: MotorClipDown4
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 1500, y: 0}
+  ports:
+    keys:
+    - dependent
+    - independent
+    - connect
+    values:
+    - _fieldName: dependent
+      _node: {fileID: 2982218768445800350}
+      _typeQualifiedName: ConstructionVR.Assembly.GraphSystem.ConnectorTypeNode,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: independent
+      _node: {fileID: 2982218768445800350}
+      _typeQualifiedName: ConstructionVR.Assembly.GraphSystem.ConnectorTypeNode,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: connect
+        node: {fileID: -1163239321022527349}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: connect
+      _node: {fileID: 2982218768445800350}
+      _typeQualifiedName: ConstructionVR.Assembly.GraphSystem.ConnectorTypeNode,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: independent
+        node: {fileID: 6783465819605371344}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+  dependent: {fileID: 0}
+  independent: {fileID: 0}
+  connect: {fileID: 0}
+  countDetail: 0
+  defaultConnectableDetail: {fileID: 11400000, guid: bf85176b6bd05e046af52886fbdc9729,
+    type: 2}
+  connectableDetails: []
+  pathToSaveDetail: Assets/_Developers/Ivan/AssemblyObject\AssemblyData
+--- !u!114 &3109926739502915047
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9655c270b7022344a0357d7eda9f5ed, type: 3}
+  m_Name: LBase
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 1000, y: 0}
+  ports:
+    keys:
+    - dependent
+    - independent
+    - connect
+    values:
+    - _fieldName: dependent
+      _node: {fileID: 3109926739502915047}
+      _typeQualifiedName: ConstructionVR.Assembly.GraphSystem.ConnectorTypeNode,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: independent
+      _node: {fileID: 3109926739502915047}
+      _typeQualifiedName: ConstructionVR.Assembly.GraphSystem.ConnectorTypeNode,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: connect
+        node: {fileID: 6783465819605371344}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: connect
+      _node: {fileID: 3109926739502915047}
+      _typeQualifiedName: ConstructionVR.Assembly.GraphSystem.ConnectorTypeNode,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: independent
+        node: {fileID: -1835702728795551604}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+  dependent: {fileID: 0}
+  independent: {fileID: 0}
+  connect: {fileID: 0}
+  countDetail: 0
+  defaultConnectableDetail: {fileID: 11400000, guid: 77c119a1d73f2b24a8ed9189d0ec99c2,
+    type: 2}
+  connectableDetails: []
+  pathToSaveDetail: Assets/_Developers/Ivan/AssemblyObject\AssemblyData
+--- !u!114 &3764764170240117962
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9655c270b7022344a0357d7eda9f5ed, type: 3}
+  m_Name: ColumnDown2
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 500, y: 0}
+  ports:
+    keys:
+    - dependent
+    - independent
+    - connect
+    values:
+    - _fieldName: dependent
+      _node: {fileID: 3764764170240117962}
+      _typeQualifiedName: ConstructionVR.Assembly.GraphSystem.ConnectorTypeNode,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: independent
+      _node: {fileID: 3764764170240117962}
+      _typeQualifiedName: ConstructionVR.Assembly.GraphSystem.ConnectorTypeNode,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: connect
+        node: {fileID: -1835702728795551604}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: connect
+      _node: {fileID: 3764764170240117962}
+      _typeQualifiedName: ConstructionVR.Assembly.GraphSystem.ConnectorTypeNode,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: independent
+        node: {fileID: -7198428770408737940}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+  dependent: {fileID: 0}
+  independent: {fileID: 0}
+  connect: {fileID: 0}
+  countDetail: 0
+  defaultConnectableDetail: {fileID: 11400000, guid: 7826d79a231e82249895d65cddcb67a8,
+    type: 2}
+  connectableDetails: []
+  pathToSaveDetail: Assets/_Developers/Ivan/AssemblyObject\AssemblyData
+--- !u!114 &6783465819605371344
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9655c270b7022344a0357d7eda9f5ed, type: 3}
+  m_Name: MBase
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 1250, y: 0}
+  ports:
+    keys:
+    - dependent
+    - independent
+    - connect
+    values:
+    - _fieldName: dependent
+      _node: {fileID: 6783465819605371344}
+      _typeQualifiedName: ConstructionVR.Assembly.GraphSystem.ConnectorTypeNode,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: independent
+      _node: {fileID: 6783465819605371344}
+      _typeQualifiedName: ConstructionVR.Assembly.GraphSystem.ConnectorTypeNode,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: connect
+        node: {fileID: 2982218768445800350}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: connect
+      _node: {fileID: 6783465819605371344}
+      _typeQualifiedName: ConstructionVR.Assembly.GraphSystem.ConnectorTypeNode,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: independent
+        node: {fileID: 3109926739502915047}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+  dependent: {fileID: 0}
+  independent: {fileID: 0}
+  connect: {fileID: 0}
+  countDetail: 0
+  defaultConnectableDetail: {fileID: 11400000, guid: 763e85ad8ee1f4d4888bbaa363236007,
+    type: 2}
+  connectableDetails: []
+  pathToSaveDetail: Assets/_Developers/Ivan/AssemblyObject\AssemblyData
+--- !u!114 &7990761618644847733
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9655c270b7022344a0357d7eda9f5ed, type: 3}
+  m_Name: MotorPlate1
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 2500, y: 0}
+  ports:
+    keys:
+    - dependent
+    - independent
+    - connect
+    values:
+    - _fieldName: dependent
+      _node: {fileID: 7990761618644847733}
+      _typeQualifiedName: ConstructionVR.Assembly.GraphSystem.ConnectorTypeNode,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: independent
+      _node: {fileID: 7990761618644847733}
+      _typeQualifiedName: ConstructionVR.Assembly.GraphSystem.ConnectorTypeNode,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: connect
+        node: {fileID: 2191171250406643128}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: connect
+      _node: {fileID: 7990761618644847733}
+      _typeQualifiedName: ConstructionVR.Assembly.GraphSystem.ConnectorTypeNode,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: independent
+        node: {fileID: -1808236126730324729}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+  dependent: {fileID: 0}
+  independent: {fileID: 0}
+  connect: {fileID: 0}
+  countDetail: 0
+  defaultConnectableDetail: {fileID: 11400000, guid: dd9b3bd4f456a1e4692dc7bd6fe6bea9,
+    type: 2}
+  connectableDetails: []
+  pathToSaveDetail: Assets/_Developers/Ivan/AssemblyObject\AssemblyData

@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ce041bffc65280408488109baa00807, type: 3}
+  m_Name: QuadrocopterControllerParams 1
+  m_EditorClassIdentifier: 
+  enginePowerDeltaLimit: 10
+  pitchPID:
+    p: 30
+    i: 5
+    d: 20
+  rollPID:
+    p: 30
+    i: 5
+    d: 20
+  yawPID:
+    p: 50
+    i: 15
+    d: 50
+  minThrottle: 0.01
+  maxThrottle: 30
